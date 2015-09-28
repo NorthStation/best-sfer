@@ -1,0 +1,122 @@
+############################顺风##########
+工号：	sfit1108
+密码：	Wm5[$F]tGc!/asdfF++123
+IP地址：10.118.40.54/21
+
+==================原始环境变量====================
+CLASSPATH	:	.;%JAVA_HOME%\lib\dt.jar;%JAVA_HOME%\lib\tools.jar;C:\Program Files\IBM\WebSphere MQ\Java\lib\providerutil.jar;C:\Program Files\IBM\WebSphere MQ\Java\lib\com.ibm.mqjms.jar;C:\Program Files\IBM\WebSphere MQ\Java\lib\ldap.jar;C:\Program Files\IBM\WebSphere MQ\Java\lib\jta.jar;C:\Program Files\IBM\WebSphere MQ\Java\lib\jndi.jar;C:\Program Files\IBM\WebSphere MQ\Java\lib\jms.jar;C:\Program Files\IBM\WebSphere MQ\Java\lib\connector.jar;C:\Program Files\IBM\WebSphere MQ\Java\lib\fscontext.jar;C:\Program Files\IBM\WebSphere MQ\Java\lib\com.ibm.mq.jar;E:\yl\ant_1.8.1\lib
+
+FP_NO_HOST_CHECK:	NO
+include		:	C:\Program Files\IBM\WebSphere MQ\tools\c\include;C:\Program Files\IBM\WebSphere MQ\tools\cplus\include
+lib		:	C:\Program Files\IBM\WebSphere MQ\tools\lib
+MQ_JAVA_DATA_PATH:	C:\Program Files\IBM\WebSphere MQ
+MQ_JAVA_INSTALL_PATH:	C:\Program Files\IBM\WebSphere MQ\Java
+MQ_JAVA_LIB_PATH:	C:\Program Files\IBM\WebSphere MQ\Java\lib
+NLS_LANG	:	SIMPLIFIED CHINESE_CHINA.ZHS16GBK
+NUMBER_OF_PROCESSORS:	2
+Path		：	C:\Program Files\Common Files\NetSarang;C:\Program Files\IBM\WebSphere MQ\Java\lib;%JAVA_HOME%\bin;%SystemRoot%\system32;%SystemRoot%;%SystemRoot%\System32\Wbem;%SYSTEMROOT%\System32\WindowsPowerShell\v1.0\;C:\Program Files\IBM\WebSphere MQ\bin;C:\Program Files\IBM\WebSphere MQ\tools\c\samples\bin;D:\Program Files\TortoiseSVN\bin;E:\yl\ant_1.8.1\bin;%M2_HOME%\bin
+JAVA_HOME	:	D:\jdk1.6.0_25
+TNS_ADMIN	:	E:\yl\instantclient_11_2\NETWORK\ADMIN
+ANT_HOME	:	E:\yl\ant_1.8.1
+CONF_PATH	:	E:\yl\smscon
+M2_HOME		:	E:\yl\maven\apache-maven-3.3.3
+JBOSS_HOME	:	E:\yl\jboss-4.2.3.GA
+
+#=================新环境变量=======================#
+
+JAVA_HOME	:	D:\DevelopeKit\jdk1.6.0_25
+M2_HOME		:	D:\DevelopeKit\maven\apache-maven-3.0.4
+TNS_ADMIN	:	D:\DevelopeKit\instantclient_11_2\NETWORK\ADMIN
+ANT_HOME	:	D:\DevelopeKit\ant_1.8.1
+CONF_PATH	:	D:\DevelopeKit\smscon
+JBOSS_HOME	:	D:\DevelopeKit\jboss-4.2.3.GA
+CATALINA_HOME	:	D:\DevelopeKit\apache-tomcat-6.0.32
+NLS_LANG	:	SIMPLIFIED CHINESE_CHINA.ZHS16GBK
+CLASSPATH	:	.;%JAVA_HOME%\lib\dt.jar;%JAVA_HOME%\lib\tools.jar;
+PATH		:	添加-->	%JAVA_HOME%\bin;%M2_HOME%\bin;%CATALINA_HOME%\bin;
+
+#----------------------------------------------------#
+8:00,8:30,9:00,9:30,10:00,10:30,11:00,11:30,12:00,13:30,14:00,14:30,15:00,15:30,16:00,16:30,17:00,17:30,18:00,18:30,19:00,19:30,20:00,20:30,21:00,21:30,22:00,22:30,23:00,23:30
+
+
+#*********************待了解模块**************************#
+http://localhost:8080/weiwap/overseasPassClearance.html
+
+
+###################################
+
+资料相关下载路径： http://10.118.41.75:9000/
+
+################################################
+
+
+数据库：	WEIXINUAT_NWE
+用户名/密码：	memopr	/  #mopr_2233
+连接串URL：	jdbc:oracle:thin:@(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=10.202.46.22)(PORT=1521)))(CONNECT_DATA=(SID=member)(SERVER=DEDICATED)))
+
+
+#----------------GitHub------------------#
+
+Winnermedical的： https://github.com/liduanfeng/winnermedical.git
+Shunfeng的：	  https://github.com/liduanfeng/shunfeng.git
+
+#$$$$$$$$$$$------------Git使用之ResourcesTree--------$$$$$$$$$##
+
+
+Eclipse之设置
+abcdefghijklmnopqrstuvwxyz.@(
+
+
+################--------百度统计代码----------##############3
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "//hm.baidu.com/hm.js?e3ee4754efe5ba2415c7db261415f45c";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+#############################################
+~~~~~~~~~测试数据~~~~~~~~~~~~~~~~~~~~
+13838382438383868898878868835515588
+
+
+%%%%%%--Input标签中的千分位显示--%%%%%%%%
+// 把字符串拆分为'abc,def,ghi,j'
+function displayThousands(string) {
+	var string = "abcdefghij";
+	var value = $.trim(value).replace(/,/g, "")
+	var text = value;
+	var span = "";
+	for (var i = 1; text && (i <= text.length); i++) {
+		if (i % 3 == 0) {
+			span += text[i-1] + ",";
+		} else {
+			span += text[i-1];
+		}
+	}
+	return span;
+}
+// 反字符千分位展示
+function showThousands(string) {
+	var reg = /(\d{1,3})(?=(\d{3})+(?:$|\D))/g; 
+	var span = string.replace(reg, "$1,");
+	return span;
+}
+
+
+// 点击按钮改变文字 
+	if ("其他" == text) {
+		text += "证";
+	}
+	$("li.fm-item>label:contains('正面')").html(text + "正面");
+	$("li.fm-item>label:contains('反面')").html(text + "反面");
+
+
+
+
+
+
+
+

@@ -1,0 +1,38 @@
+>移动端web开发，浏览器或微信浏览器，打开web页面后，监听用户触发了安卓手机物理返回键,用javascript实现过这个功能么:
+-----------------------------
+//此声明函数在xback.js文件里有，在app.js里必须再声明一次，不然监听返回事件失败
+;!function(pkg, undefined){ 
+var STATE = 'x-back';
+var element;
+
+var onPopState = function(event){
+    event.state === STATE && fire();
+    record(STATE);  //初始化事件时，push一下
+}
+
+var record = function(state){
+    history.pushState(state, null, location.href);
+}
+
+var fire = function(){
+    var event = document.createEvent('Events');
+    event.initEvent(STATE, false, false);
+    element.dispatchEvent(event);
+}
+
+var listen = function(listener){
+    element.addEventListener(STATE, listener, false);
+}
+
+!function(){
+    element = document.createElement('span');
+    window.addEventListener('popstate', onPopState);
+    this.listen = listen;
+    //record(STATE);  //注释掉这行代码
+}.call(window[pkg] = window[pkg] || {});
+}('XBack');
+
+调用方法：
+XBack.listen(function(){
+alert('oh! you press the back button');
+});
