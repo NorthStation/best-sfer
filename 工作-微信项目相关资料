@@ -15,9 +15,3 @@ http://localhost:8080/weiwap/overseasPassClearance.html
 连接串URL：	jdbc:oracle:thin:@(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=10.202.46.22)(PORT=1521)))(CONNECT_DATA=(SID=member)(SERVER=DEDICATED)))
 
 
-#----------------GitHub------------------#
-
-Winnermedical的： https://github.com/liduanfeng/winnermedical.git
-Shunfeng的：	  https://github.com/liduanfeng/shunfeng.git
-
-#$$$$$$$$$$$------------Git使用之ResourcesTree--------$$$$$$$$$##
