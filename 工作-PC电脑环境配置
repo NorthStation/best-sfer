@@ -1,7 +1,4 @@
-############################顺风##########
-工号：	sfit1108
-密码：	Wm5[$F]tGc!/asdfF++123
-IP地址：10.118.40.54/21
+
 
 ==================原始环境变量====================
 CLASSPATH	:	.;%JAVA_HOME%\lib\dt.jar;%JAVA_HOME%\lib\tools.jar;C:\Program Files\IBM\WebSphere MQ\Java\lib\providerutil.jar;C:\Program Files\IBM\WebSphere MQ\Java\lib\com.ibm.mqjms.jar;C:\Program Files\IBM\WebSphere MQ\Java\lib\ldap.jar;C:\Program Files\IBM\WebSphere MQ\Java\lib\jta.jar;C:\Program Files\IBM\WebSphere MQ\Java\lib\jndi.jar;C:\Program Files\IBM\WebSphere MQ\Java\lib\jms.jar;C:\Program Files\IBM\WebSphere MQ\Java\lib\connector.jar;C:\Program Files\IBM\WebSphere MQ\Java\lib\fscontext.jar;C:\Program Files\IBM\WebSphere MQ\Java\lib\com.ibm.mq.jar;E:\yl\ant_1.8.1\lib
